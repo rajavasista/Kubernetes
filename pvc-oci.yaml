@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: oracle-managed-disk
+spec:
+  accessModes:
+  - ReadWriteOnce
+  storageClassName: oci
+  resources:
+    requests:
+      storage: 1Gi
+~                     

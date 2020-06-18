@@ -8,6 +8,7 @@ metadata:
 spec:
   selector:
     app: elasticsearch
+  type: LoadBalancer
   ports:
     - port: 9200
       name: rest

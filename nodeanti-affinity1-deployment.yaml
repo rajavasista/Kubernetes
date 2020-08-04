@@ -22,7 +22,7 @@ spec:
       affinity:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
-            nodeSelectorTerms:
+            nodeSelectorTerms: 
             - matchExpressions:
               - key: disktype
                 operator: NotIn

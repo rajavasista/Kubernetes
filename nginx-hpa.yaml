@@ -1,11 +1,11 @@
-apiVersion: apps/v1
+aiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-hpa
   labels:
     app: nginx-hpa
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: nginx-hpa
